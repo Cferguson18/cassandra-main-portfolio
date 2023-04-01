@@ -36,6 +36,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 Youtube-
 How To Make A Portfolio Website Using HTML CSS JS | Complete Responsive Website Design: https://www.youtube.com/watch?v=0YFrGy_mzjY&t=1730s
+
 Dani Krossing-HTML & CSS Course for Beginners: https://www.youtube.com/playlist?list=PL0eyrZgxdwhwP0AxnbBiDBCi53LK9uCMZ
 
 CSS Cheatsheet mini-project from bootcamp.
