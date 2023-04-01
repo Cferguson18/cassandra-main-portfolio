@@ -37,9 +37,7 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-nav:hover{
-    color: #ff42a1;
-}
+
 .logo,
 .etsy,
 .wave,
@@ -50,9 +48,11 @@ nav:hover{
     width: 220px;
 }
 
+
 .sunrise{
-    width: 300px;
+    width: 320px;
 }
+
 /* makes horizentally aligned*/
 nav ul li{
     display: inline-block;
@@ -66,6 +66,12 @@ nav ul li a{
     font-size: 18px;
 
 }
+
+.title-link{
+	text-decoration: none;
+	color: #ff42a1;
+}
+
 
 body {
 	font-family: Roboto, Helvetica, Arial, sans-serif;
@@ -144,6 +150,7 @@ code {
 header {
 	padding: 3rem;
 	text-align: center;
+	background-color: #803a57;
 }
 
 header h1 {
@@ -174,13 +181,7 @@ main {
 	/* when the screen resizes, make it so our columns don't jump in size */
 	transition: flex-basis 500ms linear;
 }
-.card-container1 {
-	flex: 3;
-	padding: 2.5rem;
-	margin-bottom: 2.5rem;
-	/* when the screen resizes, make it so our columns don't jump in size */
-	transition: flex-basis 500ms linear;
-}
+
 
 /* make each card a flexbox column */
 .card {
@@ -195,19 +196,19 @@ main {
 	transition: all 0.5s ease-in-out;
 }
 
+
 .card h2 {
 	/* use position and negative margins to move title of card over the card's outline and create an overlap effect */
 	position: relative;
-	margin: -4rem 0 1.5rem 0;
+	margin: -1rem 0 1.5rem 0;
 	padding: 0.5rem 1rem;
 	border: 2px solid var(--white);
-	border-radius: 8px;
+	border-radius: none;
 	background-color: var(--black);
 	transition: all 0.5s ease-in-out;
 }
 
-.card:hover,
-.card:hover h2 {
+.card h2:hover{
 	box-shadow: inset 0px 0px 8px var(--pink), 0 0 15px var(--pink);
 }
 
@@ -229,6 +230,7 @@ main {
 .card pre:active {
 	user-select: all;
 }
+
 
 .contact-info{
     font-size: 25px;
